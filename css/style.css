@@ -20,3 +20,13 @@ ol,ul,li{
     --sub2-color:#dfddc5;
     --text-color:#777d71; 
 }
+
+body{
+    /* max-width: 1920px; */
+    font-size: 20px;
+}
+
+.wrap{
+    max-width: 1440px;
+    margin:0 auto;
+}
