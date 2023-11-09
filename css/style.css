@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+*,
+*::before,
+*::after
+{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+ol,ul,li{
+    margin:0;
+    padding: 0;
+    color:inherit;
+}
+
+:root{
+    --main-color:#bbd38b;
+    --sub-color:#f7f6e7;
+    --sub2-color:#dfddc5;
+    --text-color:#777d71; 
+}
+
+body{
+    /* max-width: 1920px; */
+    font-size: 20px;
+}
+
+.wrap{
+    max-width: 1440px;
+    margin:0 auto;
+}
