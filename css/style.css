@@ -1,71 +1,118 @@
-@charset "utf-8";
-
+@charset "UTF-8";
 *,
-*::before,
-*::after
-{
- margin:0;
- padding: 0;
- box-sizing: border-box;
+*:before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-ol,ul,li{
-    margin:0;
-    padding: 0;
-    list-style: none;
+a,
+a:link {
+  text-decoration: none;
+  color: inherit;
 }
 
-:root{
-    --main-color:#bbd38b;
-    --sub-color:#f7f6e7;
-    --sub2-color:#dfddc5;
-    --text-color:#777d71; 
-}
-.my1{
-    margin:1rem 0;
-}
-.my1{
-    margin:2rem 0;
-}
-.my1{
-    margin:3rem 0;
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.mx1{
-    margin:0 1rem;
-}
-.mx2{
-    margin:0 2rem;
-}
-.mx3{
-    margin:0 3rem;
+body {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
-body{
-    /* max-width: 1920px; */
-    font-size: 20px;
+.my1 {
+  margin: 1rem 0;
 }
 
-.wrap{
-    max-width: 1440px;
-    margin:0 auto;
+.my1 {
+  margin: 2rem 0;
 }
 
-/*=============================/공통====================================*/
+.my1 {
+  margin: 3rem 0;
+}
 
-.head{
-    max-width: 1920px;
-    height: 800px;
-    background:var(--main-color);
-    color:white;
-    margin:0 auto;
+.mx1 {
+  margin: 0 1rem;
 }
-.head p{
-    position:border-box;
-    width:170px;
-    margin-left:90%;
+
+.mx2 {
+  margin: 0 2rem;
 }
-.head-text{
-    margin:12.5rem 17rem;
-    font-size: larger;
+
+.mx3 {
+  margin: 0 3rem;
 }
+
+/*=========================/공통==========================*/
+.head {
+  max-width: 1920px;
+  height: 800px;
+  background: #BBD38B;
+  color: white;
+  margin: 0 auto;
+}
+
+.head p {
+  position: border-box;
+  width: 170px;
+  padding-top: 1rem;
+  margin-left: 90%;
+}
+
+.head-text {
+  text-shadow: 1px 1px 1px #777d71;
+  margin: 12.5rem 17rem;
+  font-size: 1.7rem;
+}
+
+/*=========================/header==========================*/
+.wrap {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+.about {
+  margin: 9rem 9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-left {
+  color: #777d71;
+}
+.about-left img {
+  width: 400px;
+  height: 390px;
+}
+.about-left h3 {
+  font-size: 2.5rem;
+}
+
+.about-right {
+  margin: 0 5rem 1rem 0;
+}
+.about-right ul {
+  margin: 1rem 1rem;
+}
+.about-right h3 {
+  color: #BBD38B;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.about-right p {
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+.about-right p p:nth-last-child(1) {
+  margin-bottom: 3rem;
+}
+
+/*=========================/main==========================*/
+/*=========================/footer==========================*/
+
+/*# sourceMappingURL=style.css.map */
