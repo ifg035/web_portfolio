@@ -12,7 +12,7 @@
 ol,ul,li{
     margin:0;
     padding: 0;
-    color:inherit;
+    list-style: none;
 }
 
 :root{
@@ -20,6 +20,25 @@ ol,ul,li{
     --sub-color:#f7f6e7;
     --sub2-color:#dfddc5;
     --text-color:#777d71; 
+}
+.my1{
+    margin:1rem 0;
+}
+.my1{
+    margin:2rem 0;
+}
+.my1{
+    margin:3rem 0;
+}
+
+.mx1{
+    margin:0 1rem;
+}
+.mx2{
+    margin:0 2rem;
+}
+.mx3{
+    margin:0 3rem;
 }
 
 body{
@@ -30,4 +49,23 @@ body{
 .wrap{
     max-width: 1440px;
     margin:0 auto;
+}
+
+/*=============================/공통====================================*/
+
+.head{
+    max-width: 1920px;
+    height: 800px;
+    background:var(--main-color);
+    color:white;
+    margin:0 auto;
+}
+.head p{
+    position:border-box;
+    width:170px;
+    margin-left:90%;
+}
+.head-text{
+    margin:12.5rem 17rem;
+    font-size: larger;
 }
