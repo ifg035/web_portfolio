@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+
+$-main-color:#BBD38B;
+$-sub-color:#f7f6e7;
+$-sub2-color:#dfddc5;
+$-text-color:#777d71; 
+
+
+*,
+*:before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a,
+a:link{
+    text-decoration: none;
+    color:inherit;
+}
+
+ul,ol,li{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+body{
+    max-width: 1920px;
+    margin:0 auto;
+}
+
+.my1{
+    margin:1rem 0;
+}
+
+.my1{
+    margin:2rem 0;
+}
+
+.my1{
+    margin:3rem 0;
+}
+
+.mx1{
+    margin:0 1rem;
+}
+
+.mx2{
+    margin:0 2rem;
+}
+
+.mx3{
+    margin:0 3rem;
+}
+
+/*=========================/공통==========================*/
+
+.head{
+    max-width: 1920px;
+    height: 800px;
+    background:$-main-color;
+    color:white;
+    margin:0 auto;
+}
+.head p{
+    position:border-box;
+    width:170px;
+    padding-top:1rem;
+    margin-left:90%;
+}
+.head-text{
+    text-shadow:1px 1px 1px #777d71;
+    margin:12.5rem 17rem;
+    font-size:1.7rem;
+}
+
+/*=========================/header==========================*/
+.wrap{
+    max-width: 1420px;
+    margin:0 auto;
+}
+
+.about{
+    margin:9rem 9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left{
+    color:$-text-color;
+
+    img{
+        width:400px;
+        height: 390px;
+    }
+
+    h3{
+        font-size:2.5rem;
+    }
+}
+.about-right{
+    margin:0 5rem 1rem 0;
+
+    ul{
+        margin:1rem 1rem;
+    }
+
+    h3{
+        color:$-main-color;
+        font-size:2.5rem;
+        margin-bottom:1rem;
+    }
+    p{
+        margin:1rem;
+        font-size:1.3rem;
+        
+        p:nth-last-child(1){
+            margin-bottom: 3rem;
+        }
+    }
+}
+/*=========================/main==========================*/
+/*=========================/footer==========================*/
