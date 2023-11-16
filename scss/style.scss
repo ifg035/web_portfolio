@@ -90,9 +90,15 @@ h3{
 .about{
     // margin:9rem 9rem;
     display: flex;
+    margin:9rem;
     justify-content: space-between;
 }
 
+.content{
+    border:3px solid #777d71;
+    margin:1rem 0;
+    width:270px;
+}
 .about-left{
     color:$-text-color;
     img{
@@ -102,6 +108,12 @@ h3{
 
     h3{
         font-size:2.5rem;
+        margin:.5rem 0;
+    }
+
+    h4{
+        font-size:2rem;
+        margin:.5rem 0;
     }
 }
 .about-right{
@@ -119,6 +131,8 @@ h3{
     p{
         margin:1rem;
         font-size:1.3rem;
+        font-weight: bold;
+        color:#777d71;
         
         p:nth-last-child(1){
             margin-bottom: 3rem;
@@ -157,6 +171,11 @@ h3{
 
 .web-port{
     text-align:center;
+    h3{
+        color:#BBD38B;
+        padding:5rem 0;
+        margin-bottom:1rem;
+    }
     .web-box{
         display:flex;
         justify-content: space-around;
@@ -201,8 +220,14 @@ h3{
     }
 
 .grap-port{
+    padding-bottom:7rem;
     margin-top:5rem;
     text-align:center;
+    h3{
+        color:#BBD38B;
+        padding:5rem 0;
+        margin-bottom:1rem;
+    }
     .grap-box{
         display:flex;
         justify-content: center;
@@ -249,11 +274,26 @@ h3{
     img{
         width:100%;
     }
-    .end-text p{
-        position:absolute;
-        
+    .end-text {
+        height:150px ;
+        p{
+            font-size:1.5rem;
+            color:#777d71;
+            font-weight:bold ;
+            position:absolute;
+            bottom:60%;
+            flex-direction:column ;
+            padding: 0 7rem ;
+        }
+        .end-p{
+            margin-bottom:5%;
+        }
+       
     }
     .airplane{
+        bottom:50%;
+        top:37%;
+        left:70%;
         position:absolute;
     }
 }
@@ -264,6 +304,38 @@ h3{
 
 .foot-bg{
     background-color:$-main-color;
+    height: 280px;
     color:white;
+    font-weight: bold;
+    p{
+        text-align:center;
+        justify-self: center;
+        margin:.5rem;
+    }
+    .first-p{
+        padding-top: 7rem;
+    }
 }
 /*=========================/footer==========================*/
+
+@media screen and (max-width:393px) { 
+    .head{
+        p{
+           margin:0 17rem; 
+        }
+        height: 400px;
+        .head-text{
+            width:360px;
+            margin:7rem 0;
+            h2{
+                font-size:1.5rem;
+                margin:.725rem 1rem;
+            }
+            h1{
+                font-size: 1.7rem;
+                margin:.725rem 1rem;
+            }
+        }
+    }
+    
+}
