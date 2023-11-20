@@ -1,9 +1,10 @@
-# web_portfolio
-- 바른푸드/ PC,Moblie
-- 땅끝오토캠핑장 Moblie
+# 웹 포트폴리오 페이지 제작
+웹 포트폴리오 홈페이지 제작 프로젝트
 
-# graphic-portfolio
-- jellypia 사이트 구현
+# 진행사항
+- 땅끝오토캠핑장
+- 바른푸드
+- jellypia 화면설계
 - 그래픽 포트폴리오
 
 # link
