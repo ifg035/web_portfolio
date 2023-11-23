@@ -414,9 +414,9 @@ h3{
 }
 /*=========================/footer==========================*/
 
-@media screen and (max-width:393px) {
+@media screen and (max-width:434px) {
     body{
-        max-width: 393px;
+        max-width:434px;
     }
     h3{
         font-size:1.725rem;
@@ -429,18 +429,18 @@ h3{
         display:none; 
     }
     .wrap{
-        max-width: 393px;
+        max-width: 434px;
         overflow: hidden;
     }
     .head{
-        max-width:393px;
+        width:434px;
         p{
-            margin:0 17rem; 
+            margin:0 19rem; 
         }
         height: 400px;
         .head-text{
             width:360px;
-            margin:7rem 0;
+            margin:7rem 16px;
             h2{
                 font-size:1.5rem;
                 margin:.725rem 1rem;
@@ -452,7 +452,10 @@ h3{
         }
     }
     /*=======================/head======================*/
-
+    main{
+       justify-content: center;
+       margin: 0 auto;
+    }
     .about{
         margin:0;
         display:block;
@@ -467,7 +470,7 @@ h3{
                 margin-top:9rem;
             }
             .mo-aboutleft{
-                margin:3rem 5rem;
+                margin:3rem 7.2rem;
             }
             img{
                 width:170px;
@@ -503,12 +506,14 @@ h3{
 
     .skills-h3{
         font-size:1.725rem;
+        margin-left:2.45rem;
     }
     .skills{
         display: flex;
+        margin-left:3.7rem;
         background-color:white;
         .skill-box{
-            margin:0 .925rem;
+            margin:.5rem;
             justify-content: center;
             h4{
                 display: none;
@@ -523,6 +528,7 @@ h3{
         }
     }
     .web-port{
+        padding-left:2.45rem;
         .web-box{
             display:block;
             .barun{
@@ -556,11 +562,12 @@ h3{
         margin:0;
         padding-bottom:2rem;
         h3{
-            margin:2rem;
-            padding:0;
+            margin:2rem .8rem 0 3.1rem;
+            padding:2rem 0;
         }
         .grap-box{
             display:block;
+            padding-left:2.4rem;
             .jellypia{
                 background: white;
                 margin:0;
@@ -584,15 +591,11 @@ h3{
             }
           
         }
-        h3{
-            margin:2rem;
-            padding:0;
-        }
     }
     .end-bg{
             height:160px;
         img{
-            width:393px;
+            width:434px;
             height:150px;
         }
         .end-text{
@@ -611,6 +614,7 @@ h3{
         }
     }
     .mo-contact{
+        margin-left:2.4rem;
         display: block;
         .contact-box{
             display: flex;
@@ -635,6 +639,7 @@ h3{
    
     /*=======================/main======================*/
     .foot-bg{
+        width:434px;
         height: 110px;
         .first-p{
             padding:1.5rem 0;
