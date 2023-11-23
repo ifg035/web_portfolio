@@ -415,6 +415,9 @@ h3{
 /*=========================/footer==========================*/
 
 @media screen and (max-width:393px) {
+    body{
+        max-width: 393px;
+    }
     h3{
         font-size:1.725rem;
     }
@@ -430,6 +433,7 @@ h3{
         overflow: hidden;
     }
     .head{
+        max-width:393px;
         p{
             margin:0 17rem; 
         }
