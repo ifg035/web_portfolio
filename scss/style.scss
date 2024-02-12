@@ -341,7 +341,7 @@ h3{
             }
             img{
                 width:100%;
-                transform: scale(1.1);
+                transform: scale(1.2);
                 transition: all 0.25s linear;
                 &:hover{
                     opacity: .5;
@@ -361,7 +361,7 @@ h3{
         }
             img{
                 width:100%;
-                transform: scale(1.1);
+                transform: scale(1.2);
                 transition: all 0.25s linear;
                 &:hover{
                     opacity: .5;
@@ -541,20 +541,28 @@ h3{
                 background: white;
                 width:auto;
                 height:auto;
-                margin-bottom:2.5rem;
+                margin: 1rem 2.5rem;
+                // margin-bottom:2.5rem;
                 img{
                     width:316px;
                     height: 243px; 
                 }
+                p{
+                    margin-top: 1.7rem;
+                }
+                
             }
             .camp{
                 background: white;
                 width:auto;
                 height:auto;
-                margin-bottom:2.5rem;
+                margin: 1rem 2.5rem;
                 img{
                     width:316px;
                     height: 243px; 
+                }
+                p{
+                    margin-top:1.7rem;
                 }
             }
           
@@ -579,20 +587,27 @@ h3{
                 margin:0;
                 width:auto;
                 height:auto;
+                margin-top:1rem;
                 img{
                     width:316px;
                     height:243px; 
+                    margin-top:1rem;
                     padding-bottom:2.5rem;
                 }
+            
             }
             .portfolio{
                 background: white;
                 width:auto;
                 height:auto;
                 padding-bottom:2.5rem;
+                margin-top:2rem;
                 img{
                     width:316px;
                     height:243px; 
+                }
+                p{
+                    margin-top:2rem;
                 }
             }
           
