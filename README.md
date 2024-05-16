@@ -9,7 +9,7 @@
 
 # link
 -dothome
-http://icetea.dothome.co.kr/web_portfolio
+http://icetea1.dothome.co.kr
 
 -화면설계,프로토타입,와이어프레임
 https://zrr.kr/WYFK
